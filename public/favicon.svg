@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <mask id="cutout">
+      <rect width="24" height="24" fill="white" />
+      <!-- Cutout channel through the house where the curved exponential arrow passes -->
+      <path d="M 4 18.5 C 9.5 18.5 15 11 22 2" fill="none" stroke="black" stroke-width="4.8" stroke-linecap="round" />
+      <!-- Cutout clearance around the arrowhead -->
+      <path d="M 15 2 H 23 V 10" fill="none" stroke="black" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" />
+    </mask>
+  </defs>
+
+  <!-- Solid filled dark house shape (deep charcoal/slate) with boolean subtraction cutout -->
+  <path
+    d="M 11 5 L 2 12 H 4 V 22 H 18 V 12 H 20 Z"
+    fill="#0f172a"
+    mask="url(#cutout)"
+  />
+
+  <!-- Curved, upward-trending exponential growth arrow pulled high above the roof in vibrant turquoise-green / teal -->
+  <path
+    d="M 5 18.5 C 10.5 18.5 16 11 22 2"
+    fill="none"
+    stroke="#10b981"
+    stroke-width="2.4"
+    stroke-linecap="round"
+  />
+  <path
+    d="M 16 2 H 22 V 8"
+    fill="none"
+    stroke="#10b981"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
